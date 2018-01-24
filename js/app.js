@@ -16,12 +16,13 @@ initMap = () => {
 
   let marker = new google.maps.Marker({
     position: laboratoriaLima,
-    map: map
+    map: map,
+     icon: 'assets/images/bicicleta.png'
   });
 
   /* Al cargar la pagina se pedirá permiso para saber la ubicación geografica del user */
   var infoWindow = new google.maps.InfoWindow({map: map});
-  
+
   // Try HTML5 geolocation.
   if (navigator.geolocation) {
     navigator.geolocation.getCurrentPosition(function(position) {
@@ -29,7 +30,7 @@ initMap = () => {
         lat: position.coords.latitude,
         lng: position.coords.longitude
       };
-  
+
       infoWindow.setPosition(pos);
       infoWindow.setContent('Location found.');
       map.setCenter(pos);
