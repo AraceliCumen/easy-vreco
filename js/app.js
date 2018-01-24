@@ -17,7 +17,7 @@ initMap = () => {
   let marker = new google.maps.Marker({
     position: laboratoriaLima,
     map: map,
-     icon: 'assets/images/bicicleta.png'
+    icon: 'assets/images/bicicleta.png'
   });
 
   /* Al cargar la pagina se pedirá permiso para saber la ubicación geografica del user */
@@ -60,9 +60,11 @@ initMap = () => {
       map: map
     });
   };
+
   let functionError = (error) =>{
     alert('We have an error locating your location');
   };
+  
   let search = () => {
     event.preventDefault(event);
 
@@ -70,6 +72,7 @@ initMap = () => {
       navigator.geolocation.getCurrentPosition(functionSuccess, functionError);
     }
   };
+  
   document.getElementById('find-me').addEventListener('click', search);
 
   /* Se dibujará la ruta */

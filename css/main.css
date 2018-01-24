@@ -12,8 +12,9 @@ body {
   color: #FFFFFF;
   font-size: 2rem;
   background: linear-gradient(to bottom right, #339a99, #62c899);
-   height: 150vh;
 }
+
+/* Style for header */
 
 .splash{
   text-align: center;
@@ -58,10 +59,14 @@ body {
 img[alt="Brand"]{
   height: 7vw;
 }
+
 img[alt="carro"]{
   height: 50vh;
   width: 50vw;
 }
+
+/* Style for form */
+
 section{
   color: white;
 }
@@ -73,6 +78,7 @@ section h1{
 
 .btn-route{
   margin-top: 2rem;
+  margin-right: 2rem;
   color:#7bb7bb;
   border: 2px solid white;
   padding: 2rem;
@@ -90,6 +96,8 @@ section h1{
   margin-bottom: 2rem;
 }
 
+/* Style for footer */
+
 footer{
   background-color: #373b47;
   width: 100%;
@@ -97,36 +105,18 @@ footer{
   padding: 1rem;
 }
 
-/*
-#copyright{
-  font-size: 1.7rem;
-  font-weight: lighter;
-}
+/* Media query */
 
-.container-flex-row {
-	display: flex;
-	justify-content: space-between;
-}
-
-.container-flex-column {
-  display: flex;
-  flex-direction:column;
-  justify-content: center;
-  padding: 2em;
-}
-*/
 @media (min-width: 992px){
   img[alt="Brand"]{
     height: 3vw;
   }
 
-  body {
-    height: 130vh;
-  }
   .name{
     margin-top: 20px;
   }
+
   footer{
-    height: 10vh;
+    height: 8vh;
   }
 }

@@ -25,6 +25,7 @@
       </div>
     </div>
   </div>
+  <!-- Header -->
   <header>
     <nav class="navbar navbar-default principal">
       <div class="container-fluid">
@@ -57,37 +58,35 @@
       <div class="container-fluid">
         <div class="row">
           <div class="col-xs-12 col-md-10 col-md-offset-1">
-            <!--formulario-->
+            <!-- Form -->
             <form>
-              <button type="submit" id="find-me" class="btn btn-default btn-route">Encuentrame</button>
               <br>
-              <br>
-              <!--entrada para el origen-->
+              <!-- Entry for the origin -->
               <div class="form-group ">
                 <label>Origen</label>
                 <input type="text" class="form-control" id="start" placeholder="origen">
               </div>
-              <!--entrada para el destino-->
+              <!-- Entry for the destination -->
               <div class="form-group ">
                 <label for="exampleInputPassword1">Destino</label>
                 <input type="text" class="form-control" id="end" placeholder="destino">
               </div>
+              <button type="submit" id="find-me" class="btn btn-default btn-route">Encuentrame</button>
               <button id="ruta" type="button" class="btn btn-default btn-route">Trazar ruta</button>
               <hr>
             </form>
-            <!--mapa-->
+            <!-- Map -->
             <div class="class= map" id="map">
             </div>
-
           </div>
-
         </div>
+      </div>
     </section>
+    <!-- Footer -->
     <footer>
-      <footer>
-        <p id="copyright"> by Melissa, Betsy y Araceli</p>
-      </footer>
+      <p id="copyright"> by Melissa, Betsy y Araceli</p>
     </footer>
+
     <!-- Import jQuery and Bootstrap.js -->
     <script type="text/javascript" src="vendors/js/jquery-3.2.1.min.js"></script>
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCZMVcemBGrPtS3Mhjh31FQaC57pjRmuwM&callback=initMap&&libraries=places"></script>

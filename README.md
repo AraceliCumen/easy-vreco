@@ -2,53 +2,54 @@
 
 ## Objetivo
 
-- El objetivo de esta pagina es trazar rutas, para los ciclistas.
+- El objetivo de esta pagina es, trazar rutas rapidas y seguras para los ciclistas.
 
-## Flujo de trabajo
+## Planificación, Organización y Ejecución
 
-- Primero creamos la estructura HTML, en forma anidada.
-- Comentar el código.
-- Enlazamos el archivo externo del CSS, esto para un mayor orden y hacer uso de las buenas practicas.
-- Enlazamos los archivos descargados, para hacer uso de las herramientas de Bootstrap.
-- Luego continuamos trabajando en CSS.
-- Comentar el código.
-- Subimos avances a github.
-- Terminar de dar estilo con CSS.
-- Empezamos a trabajar con los media queries, para adaptar las vistas a la ventana del navegador.
-- Comentar el código.
-- Subimos avances a github.
-- Cumplimos con el objetivo.
-- Digitar el archivo README.md
-- Subir el producto final a github.
-- Crear la rama "gh-pages".
+- Miercoles: 07/02/2018
+   - Primero nos organizamos y dividimos el trabajo por tareas.
+   - Luego cada una subio sus avances a github, previo a esto nos comunicamos por slack para no entrar en conflictos.
+   - Para finalizar nos dimos feedback, verificamos el producto final y lo aceptamos. 
 
 ## Herramientas Utilizadas
 
-- Html, para la estructura del contenido.
-- Css, para darle estilo al contenido.
-- Bootstrap
+- Html5, para la estructura del contenido.
+- API geolocalización, para encontrar al usuario y trazar la ruta.
+- Css3, para darle estilo al contenido.
+- JS6, para la logica de la página.
+- Jquery, para acceder al DOM.
+- Bootstrap4
 - Media queries.
 
 ## Fuente consultada
 
-- [Laboratoria LMS] : https://lms.laboratoria.la/cohorts/lim-2017-09-bc-core-pm/courses/social-network/01-css-frameworks/02-bootstrap
+[Laboratoria LMS](https://lms.laboratoria.la/cohorts/lim-2018-01-bc-js-front-end-developer/courses/spa/01-html-5/08-geolocation-challenges)
 
-- [Bootstrap] : https://getbootstrap.com/docs/3.3/css/#forms
-
-- [W3School] : https://www.w3schools.com/bootstrap/bootstrap_forms.asp
+[Google Maps Api](https://developers.google.com/maps/documentation/javascript/geolocation)
 
 ## Imagen
-- Vista rápida
+- Vista Splash
 
-![Easy Vreco](assets/images/layout2.PNG)
+![Easy Vreco](assets/readme/vista-splash.png)
 
 - Vista Mobile
 
-![Easy Vreco](assets/images/layout1.PNG)
+![Easy Vreco](assets/readme/vista-mobile.png)
 
--Vista desktop
+- Location
 
-![Easy Vreco](assets/images/layout4.PNG)
+![Easy Vreco](assets/readme/ubicacion.png)
 
--Resultado
-![Easy Vreco](assets/images/layout5.PNG)
+- Ruta
+
+![Easy Vreco](assets/readme/ruta.png)
+
+- Vista Desk
+
+![Easy Vreco](assets/readme/vista-desk.png)
+
+## Integrantes
+
+- Araceli Cueva
+- Betsy Vidal
+- Melissa Yauri

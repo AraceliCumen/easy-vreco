@@ -1,4 +1,4 @@
-$(document).ready(function() {
+$(document).ready(() => {
   /* vista splash por 4 segundos*/
-  $('.splash').delay(1000).fadeOut('slow');
+  $('.splash').delay(2000).fadeOut('slow');
 });
