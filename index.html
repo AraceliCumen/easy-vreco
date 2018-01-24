@@ -25,28 +25,32 @@
     </div>
   </div>
   <nav class="navbar navbar-default principal">
-  <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="#">
-       <img alt="Brand" src="assets/images/source.gif"></a>
-       <p class="name">Easy-Vreco</p>
-    </div>
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+          aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">
+          <img alt="Brand" src="assets/images/source.gif">
+        </a>
+        <p class="name">Easy-Vreco</p>
+      </div>
 
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">Iniciar sesión</a></li>
-      </ul>
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right">
+          <li>
+            <a href="#">Iniciar sesión</a>
+          </li>
+        </ul>
+      </div>
     </div>
-  </div>
-</nav>
+  </nav>
   <section class="first">
     <div class="container-fluid">
       <div class="row">
@@ -63,8 +67,8 @@
             <div class="form-group ">
               <label for="exampleInputPassword1">Destino</label>
               <input type="text" class="form-control" id="" placeholder="destino">
-              <button type="submit" class="btn btn-default btn-route">Encuentráme</button>
-                <button type="submit" class="btn btn-default btn-route">Trazar ruta</button>
+              <button id="find-me" type="submit" class="btn btn-default btn-route">Encuentráme</button>
+              <button type="submit" class="btn btn-default btn-route">Trazar ruta</button>
             </div>
           </form>
           <!--mapa-->
@@ -77,13 +81,13 @@
   <footer>
     <p>By Melissa, Araceli y Betsy</p>
   </footer>
- 
-          <!-- Import jQuery and Bootstrap.js -->
-          <script type="text/javascript" src="vendors/js/jquery-3.2.1.min.js"></script>
-          <script type="text/javascript" src="vendors/bootstrap/js/bootstrap.min.js"></script>
-          <script type="text/javascript" src="js/splash.js"></script>
-<script type="text/javascript" src="js/app.js"></script>
-          <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAZz8yPIhZkUVCLCzYucfdq9oB9l4sidXg&callback=initMap&libraries=places"></script>
-        </body>
-      </html>
 
+  <!-- Import jQuery and Bootstrap.js -->
+  <script type="text/javascript" src="vendors/js/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="vendors/bootstrap/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/splash.js"></script>
+  <script type="text/javascript" src="js/app.js"></script>
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAZz8yPIhZkUVCLCzYucfdq9oB9l4sidXg&callback=initMap&libraries=places"></script>
+</body>
+
+</html>
