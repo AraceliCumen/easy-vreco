@@ -3,14 +3,14 @@ window.addEventListener('load', () => {
   document.getElementById('find-me').addEventListener('click', search);
 });
 
-function initMap() {
+initMap = () => {
   let laboratoriaLima = {
-    lat: -12.1191427,
-    lng: -77.0349046
+    lat: -12.1260837,
+    lng: -77.0228761
   };
-
+  
   let map = new google.maps.Map(document.getElementById('map'), {
-    zoom: 18,
+    zoom: 12,
     center: laboratoriaLima
   });
 
@@ -39,8 +39,14 @@ function initMap() {
     // Browser doesn't support Geolocation
     handleLocationError(false, infoWindow, map.getCenter());
   }
-}
-
+  // Autocompletar
+  let startAutoComp = (document.getElementById('start'));
+  let autocompliteStart = new google.maps.places.Autocomplete(startAutoComp);
+  autocompliteStart.bindTo('bounds', map);
+  let EndAutoComp = (document.getElementById('end'));
+  let autocompliteEnd = new google.maps.places.Autocomplete(EndAutoComp);
+  autocompliteEnd.bindTo('bounds', map);
+};
 
 function handleLocationError(browserHasGeolocation, infoWindow, pos) {
   infoWindow.setPosition(pos);

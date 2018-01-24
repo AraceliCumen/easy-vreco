@@ -10,6 +10,7 @@
   <link href="https://fonts.googleapis.com/css?family=Bitter" rel="stylesheet">
   <!-- Import Font Awesome -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="shortcut icon" href="assets/images/logo.png">
   <!--Import Bootstrap.css-->
   <link type="text/css" rel="stylesheet" href="vendors/bootstrap/css/bootstrap.min.css">
   <link type="text/css" rel="stylesheet" href="css/main.css">
@@ -24,70 +25,73 @@
       </div>
     </div>
   </div>
-  <nav class="navbar navbar-default principal">
-    <div class="container-fluid">
-      <!-- Brand and toggle get grouped for better mobile display -->
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
-          aria-expanded="false">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="#">
-          <img alt="Brand" src="assets/images/source.gif">
-        </a>
-        <p class="name">Easy-Vreco</p>
-      </div>
-
-      <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-        <ul class="nav navbar-nav navbar-right">
-          <li>
-            <a href="#">Iniciar sesión</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-  <section class="first">
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-xs-12 col-md-10 col-md-offset-1">
-          <h1>Encuentráme</h1>
-          <!--formulario-->
-          <form>
-            <!--entrada para el origen-->
-            <div class="form-group ">
-              <label>Origen</label>
-              <input type="text" class="form-control" id="" placeholder="origen">
-            </div>
-            <!--entrada para el destino-->
-            <div class="form-group ">
-              <label for="exampleInputPassword1">Destino</label>
-              <input type="text" class="form-control" id="" placeholder="destino">
-              <button id="find-me" type="submit" class="btn btn-default btn-route">Encuentráme</button>
-              <button type="submit" class="btn btn-default btn-route">Trazar ruta</button>
-            </div>
-          </form>
-          <!--mapa-->
-          <div class="class= map" id="map">
-          </div>
+  <header>
+    <nav class="navbar navbar-default principal">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <!--boton barras para la version mobile-->
+          <button type="button" class="navbar-toggle collapsed boton-hamburger" data-toggle="collapse" data-target="#navbar-1">
+            <span class="sr-only">Menu</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <!--imagen logo-->
+          <a class="navbar-brand" href="#">
+            <img alt="Brand" src="assets/images/source.gif" class="">
+          </a>
+          <p class="name">Easy-Vreco</p>
+        </div>
+        <!--Menu despegable para desktop y mobile-->
+        <div class="collapse navbar-collapse" id="navbar-1">
+          <!--lista despegable-->
+          <ul class="nav navbar-nav navbar-right">
+            <li>
+              <a href="#iniciar" data-toggle="modal">Inicia Sesión</a>
+            </li>
+          </ul>
         </div>
       </div>
-    </div>
-  </section>
-  <footer>
-    <p>By Melissa, Araceli y Betsy</p>
-  </footer>
-
-  <!-- Import jQuery and Bootstrap.js -->
-  <script type="text/javascript" src="vendors/js/jquery-3.2.1.min.js"></script>
-  <script type="text/javascript" src="vendors/bootstrap/js/bootstrap.min.js"></script>
-  <script type="text/javascript" src="js/splash.js"></script>
-  <script type="text/javascript" src="js/app.js"></script>
-  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAZz8yPIhZkUVCLCzYucfdq9oB9l4sidXg&callback=initMap&libraries=places"></script>
+    </nav>
+    <section class="first">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-xs-12 col-md-10 col-md-offset-1">
+            <!--formulario-->
+            <form>
+              <button type="submit" id="encuentrame" class="btn btn-default btn-route">Encuentrame</button>
+              <br>
+              <br>
+              <!--entrada para el origen-->
+              <div class="form-group ">
+                <label>Origen</label>
+                <input type="text" class="form-control" id="start" placeholder="origen">
+              </div>
+              <!--entrada para el destino-->
+              <div class="form-group ">
+                <label for="exampleInputPassword1">Destino</label>
+                <input type="text" class="form-control" id="end" placeholder="destino">
+              </div>
+              <button type="ruta" class="btn btn-default btn-route">Trazar ruta</button>
+              <hr>
+            </form>
+            <!--mapa-->
+            <div class="class= map" id="map">
+            </div>
+          </div>
+        </div>
+    </section>
+    <footer>
+      <footer>
+        <p id="copyright"> by Melissa, Betsy y Araceli</p>
+      </footer>
+    </footer>
+    <!-- Import jQuery and Bootstrap.js -->
+    <script type="text/javascript" src="vendors/js/jquery-3.2.1.min.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCZMVcemBGrPtS3Mhjh31FQaC57pjRmuwM&callback=initMap&&libraries=places"></script>
+    <script type="text/javascript" src="vendors/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+    <script type="text/javascript" src="js/splash.js"></script>
 </body>
 
 </html>
