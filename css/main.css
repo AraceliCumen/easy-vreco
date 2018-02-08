@@ -51,6 +51,10 @@ body {
 img[alt="Brand"]{
   height: 7vw;
 }
+img[alt="carro"]{
+  height: 50vh;
+  width: 50vw;
+}
 section{
   color: white;
 }
