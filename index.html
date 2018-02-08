@@ -8,7 +8,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Easy Vreco</title>
   <!-- Import Font Google-->
-  <link href="https://fonts.googleapis.com/css?family=Raleway:400,700i" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Bitter" rel="stylesheet">
   <!-- Import Font Awesome -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <!--Import Bootstrap.css-->
@@ -38,7 +38,7 @@
           <a class="navbar-brand" href="#">
             <img alt="Brand" src="assets/images/source.gif" class="">
           </a>
-          <p class="name">Easy-vreco</p>
+          <p class="name">Easy-Vreco</p>
         </div>
         <!--Menu despegable para desktop y mobile-->
         <div class="collapse navbar-collapse" id="navbar-1">
@@ -47,25 +47,39 @@
             <li><a href="#iniciar" data-toggle="modal">Inicia Sesión</a></li>
           </ul>
         </div>
-        <section>
-          <h1>Encuentráme</h1>
-          <!--formulario-->
-          <form>
-            <!--entrada para el origen-->
-            <div class="form-group ">
-              <label>Origen</label>
-              <input type="text" class="form-control" id="" placeholder="origen">
+        </div>
+      </nav >
+        <section class="first">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-xs-12 col-md-10 col-md-offset-1">
+                <h1>Encuentráme</h1>
+                <!--formulario-->
+                <form>
+                  <!--entrada para el origen-->
+                  <div class="form-group ">
+                    <label>Origen</label>
+                    <input type="text" class="form-control" id="" placeholder="origen">
+                </div>
+                <!--entrada para el destino-->
+                <div class="form-group ">
+                  <label for="exampleInputPassword1">Destino</label>
+                  <input type="text" class="form-control" id="" placeholder="destino">
+                  <button type="submit" class="btn btn-default btn-route">Trazar ruta</button>
+                </div>
+              </form>
+              <!--mapa-->
+              <div class="class= map">
+              </div>
             </div>
-            <!--entrada para el destino-->
-            <div class="form-group ">
-              <label for="exampleInputPassword1">Destino</label>
-              <input type="text" class="form-control" id="" placeholder="destino">
-              <button type="submit" class="btn btn-default btn-route">Trazar ruta</button>
-            </div>
-            <!--mapa-->
-            <div class="class= map">
-            </div>
-          </section>
+          </div>
+        </div>
+      </section>
+      <footer>
+
+  <p>copyright</p>
+
+      </footer>
           <!-- Import jQuery and Bootstrap.js -->
           <script type="text/javascript" src="vendors/js/jquery-3.2.1.min.js"></script>
           <script type="text/javascript" src="vendors/bootstrap/js/bootstrap.min.js"></script>
