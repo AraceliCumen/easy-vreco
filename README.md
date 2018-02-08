@@ -49,3 +49,6 @@
 -Vista desktop
 
 ![Easy Vreco](assets/images/layout4.PNG)
+
+-Resultado
+![Easy Vreco](assets/images/layout5.PNG)

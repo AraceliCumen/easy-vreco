@@ -15,11 +15,12 @@ initMap = () => {
 
   let marker = new google.maps.Marker({
     position: laboratoriaLima,
-    map: map
+    map: map,
+     icon: 'assets/images/bicicleta.png'
   });
 
   var infoWindow = new google.maps.InfoWindow({map: map});
-  
+
   // Try HTML5 geolocation.
   if (navigator.geolocation) {
     navigator.geolocation.getCurrentPosition(function(position) {
@@ -27,7 +28,7 @@ initMap = () => {
         lat: position.coords.latitude,
         lng: position.coords.longitude
       };
-  
+
       infoWindow.setPosition(pos);
       infoWindow.setContent('Location found.');
       map.setCenter(pos);
@@ -50,7 +51,7 @@ initMap = () => {
   autocompliteEnd.bindTo('bounds', map);
 
   // evento boton trazar ruta
-  document.getElementById('ruta').addEventListener('click', () => { 
+  document.getElementById('ruta').addEventListener('click', () => {
     calculateAndDisplayRoute(directionsService, directionsDisplay);
   });
 };
