@@ -11,12 +11,12 @@ body {
   font-family: 'Raleway', sans-serif;
   color: #FFFFFF;
   font-size: 2rem;
-  background-color: #e84544;
+  background-color: #ca9090;
 }
 
 .splash{
   text-align: center;
-  background-color: #e84445;
+  background-color: #ca9090;
   width: 100%;
   height: 100vh;
   display: flex;
