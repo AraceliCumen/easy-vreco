@@ -2,7 +2,7 @@
 
 ## Objetivo
 
-- El objetivo de esta pagina es replicar la parte visual de la web LabCar, como tambien agregarle modales a los botones "Iniciar sesión", "Registrate", "Convierte en conductor", esto lo haremos con Bootstrap. 
+- El objetivo de esta pagina es replicar la parte visual de la web LabCar, como tambien agregarle modales a los botones "Iniciar sesión", "Registrate", "Convierte en conductor", esto lo haremos con Bootstrap.
 
 ## Flujo de trabajo
 
@@ -37,9 +37,15 @@
 
 - [W3School] : https://www.w3schools.com/bootstrap/bootstrap_forms.asp
 
-## Imagen 
+## Imagen
+- Vista rápida
+
+![Easy Vreco](assets/images/layout2.PNG)
 
 - Vista Mobile
 
-![Easy Vreco](assets/images/mobile.png)
+![Easy Vreco](assets/images/layout1.PNG)
 
+-Vista desktop
+
+![Easy Vreco](assets/images/layout4.PNG)
