@@ -55,8 +55,9 @@ initMap = () => {
     let myUbication = new google.maps.Marker({
       position: {
         lat: latitud,
-        lng: longitud
+        lng: longitud,
       },
+      icon: 'assets/images/logo.png',
       map: map
     });
   };
