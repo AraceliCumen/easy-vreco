@@ -1,4 +1,7 @@
 
+// La funcionalidad de tu proyecto
+
+
 function initMap() {
   let laboratoriaLima = {lat: -25.363, lng: 131.044};
   let map = new google.maps.Map(document.getElementById('map'), {
@@ -20,3 +23,4 @@ function search() {
 var latitud, longitud;
 var functionExito = function(position) {
 }
+

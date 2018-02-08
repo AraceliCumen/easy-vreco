@@ -12,7 +12,7 @@ body {
   color: #FFFFFF;
   font-size: 2rem;
   background: linear-gradient(to bottom right, #339a99, #62c899);
-  /* height: 155vh; */
+   height: 150vh;
 }
 
 .splash{
@@ -38,7 +38,7 @@ body {
 
 .principal{
   background: linear-gradient(to bottom right, #ffffff, #d9edec);
-  height: 10vh;
+
   color:#7bb7bb;
 }
 
@@ -58,7 +58,10 @@ body {
 img[alt="Brand"]{
   height: 7vw;
 }
-
+img[alt="carro"]{
+  height: 50vh;
+  width: 50vw;
+}
 section{
   color: white;
 }
@@ -94,6 +97,7 @@ footer{
   padding: 1rem;
 }
 
+/*
 #copyright{
   font-size: 1.7rem;
   font-weight: lighter;
@@ -110,7 +114,7 @@ footer{
   justify-content: center;
   padding: 2em;
 }
-
+*/
 @media (min-width: 992px){
   img[alt="Brand"]{
     height: 3vw;
@@ -120,7 +124,9 @@ footer{
     height: 130vh;
   }
   .name{
-
     margin-top: 20px;
+  }
+  footer{
+    height: 10vh;
   }
 }
